@@ -1,6 +1,37 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: rgb(51,51,51);
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 125%;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.35;
+  margin-bottom: 1em;
+}
+
+.author {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+figcaption {
+  font-family: sans-serif;
+  margin-bottom: 1em;
+  font-size: 0.7em;
 }
 
 nav {
@@ -9,6 +40,25 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+a:link {
+  color: #fff;
+  } /* unvisited */
+
+a:hover {
+  color: #d3d1d1;
+  font-weight:900;
+  } /* mouse over */
+
+a:active {
+  font-style: italic;
+  } /* selected */
 
 .logo {
   margin: 20px;
